@@ -1,0 +1,17 @@
+# data and outputs (downloaded or produced by the pipeline; never committed)
+data/
+*.parquet
+*.npz
+*.pt
+*.zip
+*.tar
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/

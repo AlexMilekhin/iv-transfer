@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ivtransfer"
+version = "1.0.0"
+description = "Zero-shot transfer of implied-volatility forecasts across option markets (code of the paper)"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Alexander Milekhin"}]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scipy>=1.11",
+    "scikit-learn>=1.4",
+    "torch>=2.2",
+    "pyarrow>=14",
+    "joblib>=1.4",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+markets = ["duckdb>=0.10", "requests>=2.31", "beautifulsoup4>=4.12"]
+test = ["pytest>=7"]
+
+[project.scripts]
+ivtransfer = "ivtransfer.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

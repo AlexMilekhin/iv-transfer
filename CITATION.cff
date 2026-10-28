@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Zero-Shot Transfer of Implied-Volatility Forecasts Across Option Markets"
+authors:
+  - family-names: Milekhin
+    given-names: Alexander
+year: 2026
+type: software
+license: MIT
+repository-code: "https://github.com/alexmilekhin/iv-transfer"
