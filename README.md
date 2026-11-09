@@ -64,7 +64,7 @@ Seeds are fixed throughout, and scoring checks every reloaded model against its 
   title  = {Zero-Shot Transfer of Implied-Volatility Forecasts Across Option Markets},
   author = {Milekhin, Alexander},
   year   = {2026},
-  note   = {Working paper}
+  note   = {Preprint}
 }
 ```
 
