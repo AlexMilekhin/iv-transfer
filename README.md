@@ -60,11 +60,14 @@ Seeds are fixed throughout, and scoring checks every reloaded model against its 
 ## Citation
 
 ```bibtex
-@article{milekhin2026transfer,
-  title  = {Zero-Shot Transfer of Implied-Volatility Forecasts Across Option Markets},
-  author = {Milekhin, Alexander},
-  year   = {2026},
-  note   = {Preprint}
+@techreport{milekhin2026transfer,
+  title       = {Zero-Shot Transfer of Implied-Volatility Forecasts Across Option Markets},
+  author      = {Milekhin, Alexander},
+  year        = {2026},
+  institution = {SSRN},
+  type        = {Working paper},
+  url         = {https://ssrn.com/abstract=7682297},
+  doi         = {10.2139/ssrn.7682297}
 }
 ```
 
