@@ -8,3 +8,12 @@ year: 2026
 type: software
 license: MIT
 repository-code: "https://github.com/alexmilekhin/iv-transfer"
+preferred-citation:
+  type: article
+  title: "Zero-Shot Transfer of Implied-Volatility Forecasts Across Option Markets"
+  authors:
+    - family-names: Milekhin
+      given-names: Alexander
+  year: 2026
+  url: "https://ssrn.com/abstract=7682297"
+  doi: "10.2139/ssrn.7682297"
